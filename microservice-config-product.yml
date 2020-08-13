@@ -12,7 +12,7 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/**/*.xml #  mapper映射文件
   
 emp:
-  name: zhangsan
+  name: 金蝉
 
 spring:
   profiles: dev # 生产环境
