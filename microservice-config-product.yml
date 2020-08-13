@@ -10,9 +10,6 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml  #  mybatis配置文件所在路径
   type-aliases-package: com.baidu.springcloud.pojo     #  所有Entity别名类所在包
   mapper-locations: classpath:mybatis/mapper/**/*.xml #  mapper映射文件
-  
-emp:
-  name: zhangsan
 
 spring:
   profiles: dev # 生产环境
